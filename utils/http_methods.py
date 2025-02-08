@@ -10,8 +10,8 @@ class HttpMethods:
     @staticmethod
     def get(url):
         with allure.step("GET"):
-            result = requests.get(url, headers=HttpMethods.headers, cookies=HttpMethods.cookie)
-            return result
+            response = requests.get(url, headers=HttpMethods.headers, cookies=HttpMethods.cookie)
+            return response
 
     @staticmethod
     def post(url, body):
