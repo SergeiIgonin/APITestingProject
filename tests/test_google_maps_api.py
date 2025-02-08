@@ -1,10 +1,12 @@
-from utils.api import GoogleMapsApi
+import allure
+from utils.services.google_maps_api import GoogleMapsApi
 from utils.checking import Checking
 
 
+@allure.epic('Test create place')
 class TestCreatePlace:
     """Класс содержащий тест по работе с локацией"""
-
+    @allure.title('Test create, read, upgrade, delete new place')
     def test_create_new_place(self):
         """Тест по созданию, изменению и удалению новой локации"""
 
