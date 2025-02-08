@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_google_maps_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_google_maps_api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils/checking.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/checking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/http_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/http_methods.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,9 @@
       <workItem from="1739009671771" duration="1619000" />
       <workItem from="1739052557039" duration="43000" />
       <workItem from="1739053961325" duration="282000" />
-      <workItem from="1739054266497" duration="1663000" />
+      <workItem from="1739054266497" duration="1754000" />
+      <workItem from="1739056047709" duration="58000" />
+      <workItem from="1739056124833" duration="789000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -136,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739055144139</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="переименовал некоторые переменные в методах">
+      <option name="closed" value="true" />
+      <created>1739055966827</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739055966827</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +156,8 @@
     <MESSAGE value="добавил метод про" />
     <MESSAGE value="в utils.checking добавил универс. метод по проверке значения выбранного поля и метод по проверке присутствия нужного слова в значении" />
     <MESSAGE value="добавил декораторы аллюр к классу, тестам и проверочным методам" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил декораторы аллюр к классу, тестам и проверочным методам" />
+    <MESSAGE value="переименовал некоторые переменные в методах" />
+    <option name="LAST_COMMIT_MESSAGE" value="переименовал некоторые переменные в методах" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/APITestingProject$poligon.coverage" NAME="poligon Coverage Results" MODIFIED="1738247051395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

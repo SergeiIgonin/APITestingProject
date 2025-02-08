@@ -35,7 +35,7 @@ class TestCreatePlace:
         Checking.check_status_code(response_get, 200)
 
         print("\nМетод DELETE")
-        response_delete = GoogleMapsApi.delete_new_place(place_id)  # удаление данных о созданной локации
+        response_delete = GoogleMapsApi.delete_new_place(place_id)  # удаление данных о созданной локаpytest -sv ции
         Checking.check_json_fields(response_delete, ['status'])
         Checking.check_json_value(response_delete, 'status', 'OK')
         Checking.check_status_code(response_delete, 200)
