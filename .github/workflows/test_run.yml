@@ -1,18 +1,15 @@
 name: Automated WEB API tests
 
-#on:
-#  workflow_dispatch:
-#    inputs:
-#      deployment_target:
-#        description: Choose target
-#        required: true
-#        default:
-#        type: choice
-#        options:
-#          - smoke_tests_in_chrome
-#          - smoke_tests_in_firefox
-#          - all_tests_in_chrome
-#          - all_tests_in_firefox
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_target:
+        description: Choose target
+        required: true
+        default:
+        type: choice
+        options:
+          - run_tests
 
 jobs:
     tests:
@@ -30,4 +27,5 @@ jobs:
         - name: Install dependensies
           run: pip install -r requirements.txt
         - name: run_tests
+          if: "github.event.inputs.deployment_target == 'run_tests'"
           run: pytest -sv
