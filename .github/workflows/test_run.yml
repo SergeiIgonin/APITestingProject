@@ -1,0 +1,33 @@
+name: Automated WEB API tests
+
+#on:
+#  workflow_dispatch:
+#    inputs:
+#      deployment_target:
+#        description: Choose target
+#        required: true
+#        default:
+#        type: choice
+#        options:
+#          - smoke_tests_in_chrome
+#          - smoke_tests_in_firefox
+#          - all_tests_in_chrome
+#          - all_tests_in_firefox
+
+jobs:
+    tests:
+      runs-on: ubuntu-latest
+
+      steps:
+        - name: Checkout repository
+          uses: actions/checkout@v3
+        - name: Setup Python
+          uses: actions/setup-python@v4
+          with:
+            python version: "3.10"
+        - name: Install Chrome
+          run: sudo apt-get install google-chrome-stable
+        - name: Install dependensies
+          run: pip install -r requirements.txt
+        - name: run_tests
+          run: pytest -sv
