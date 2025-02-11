@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4246f3c-3ff1-4bf2-958d-3fd5e5e394a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +124,13 @@
       <workItem from="1739123419865" duration="148000" />
       <workItem from="1739123843155" duration="940000" />
       <workItem from="1739124902236" duration="95000" />
+      <workItem from="1739125846066" duration="101000" />
+      <workItem from="1739209932855" duration="1931000" />
+      <workItem from="1739263363893" duration="8000" />
+      <workItem from="1739263898959" duration="33000" />
+      <workItem from="1739265513872" duration="11000" />
+      <workItem from="1739266457116" duration="37000" />
+      <workItem from="1739266511896" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -183,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739111579209</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавил Dockerfile">
+      <option name="closed" value="true" />
+      <created>1739125911391</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739125911391</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +211,8 @@
     <MESSAGE value="добавил allur степы, сохранил все уст. пакеты в requirements.txt" />
     <MESSAGE value="добавил github worflow" />
     <MESSAGE value="небольшая коррекция worflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="небольшая коррекция worflow" />
+    <MESSAGE value="добавил Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил Dockerfile" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/APITestingProject$poligon.coverage" NAME="poligon Coverage Results" MODIFIED="1738247051395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
