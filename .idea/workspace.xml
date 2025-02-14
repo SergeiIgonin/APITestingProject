@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e4246f3c-3ff1-4bf2-958d-3fd5e5e394a6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e4246f3c-3ff1-4bf2-958d-3fd5e5e394a6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,7 +128,7 @@
       <workItem from="1739263898959" duration="33000" />
       <workItem from="1739265513872" duration="11000" />
       <workItem from="1739266457116" duration="37000" />
-      <workItem from="1739266511896" duration="763000" />
+      <workItem from="1739266511896" duration="799000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -196,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739125911391</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="добавил файл readme.md">
+      <option name="closed" value="true" />
+      <created>1739267308400</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739267308400</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +218,8 @@
     <MESSAGE value="добавил github worflow" />
     <MESSAGE value="небольшая коррекция worflow" />
     <MESSAGE value="добавил Dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил Dockerfile" />
+    <MESSAGE value="добавил файл readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил файл readme.md" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/APITestingProject$poligon.coverage" NAME="poligon Coverage Results" MODIFIED="1738247051395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
